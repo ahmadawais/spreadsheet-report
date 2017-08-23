@@ -4,6 +4,10 @@
 
 Personal use project so a bit of configuration and editing to get it to work for your uses, not intended to be a finished package.
 
+<p align="center">
+<img src= "https://thumbs.gfycat.com/ShamefulDazzlingKiwi-size_restricted.gif" />
+</p>
+
 ## Installation
 
 1. Clone repo to folder of your choice

@@ -22,9 +22,9 @@ async function main() {
     const answers = await inquirer.prompt(questions);
     await connectToSpreadSheet();
     const info = await getInfoAboutSpreadSheet();
-    console.log(chalk.blue(`Dokument laddat: ${chalk.magenta(info.title)}`));
+    console.log(chalk.blue(`Document loaded: ${chalk.magenta(info.title)}`));
     const row = reduceObject(await addRow(answers));
-    console.log(chalk.blue(`Lade till följande information:`))
+    console.log(chalk.blue(`Added following row:`))
     prettyPrintObject(row);
   } catch (e) {
     console.log("Everything error :D", e);
